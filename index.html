@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Adidas</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header>
+		
+		<div class="container top_menu">
+			<div class="row">
+				<div class="col-md-12 logo">
+					<img src="images/top_logo.png" alt="Logo Adidas">
+				</div>
+				<div class="col-md-12">
+					<nav class="main_menu">
+						<ul>
+							<li class="mainContact">Контакты</li>
+							<li class="delivery">Доставка и оплата</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div id="modalDelivery">
+			<i class="fa fa-times"></i>
+			<h2>доставка</h2>
+			<p>Осуществляется перевозчиком Новая Почта. Товар может быть доставлен в любой населенный пункт Украины, где есть отделение Новой почты. В среднем, доставка занимает 1-3 дня, перед отправкой наши менеджеры согласуют с Вами дату отправки и ориентировочную дату доставки. Посылка может быть доставлена на отделение либо к двери вашего дома.</p>
+			<hr>
+			<h2>оплата</h2>
+			<p>Доставка – бесплатная.  Оплата заказа происходит непосредственно при получении посылки и может быть выполнена наличным либо безналичным расчетом. Сотрудник Новой почты также обязан предоставить покупателю чек об оплате, который впоследствии выступает в качестве гарантийного талона. Гарантия составляет 2 года от момента покупки товара.</p>
+		</div>
+		<div class="container sign">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-3">
+					<p class="best"><span class="yellow">лучшие</span> беговые кроссовки от adidas</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7 col-md-offset-5">
+					<p class="name">Ultra <span class="yellow bold">Boost</span></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					<p class="price">только до конца 2015 года всего за <span class="number">1275</span> <span class="uah"> грн</span></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-9">
+					<p class="old_price">1500 грн</p>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8">
+					<ul class="benefit">
+						<li>скидка 15%</li>
+						<li>бесплатная доставка</li>
+					</ul>
+				</div>
+			</div>
+			<div id="sneakerBig">
+				<i class="fa fa-times"></i>
+			</div>
+			<div class="row">
+				<div class="col-md-1">
+					<ul class="buttons">
+						<li class="facebook" title="Facebook"><a href="http://www.facebook.com/adidas" target="_blank"><img src="images/facebook.png" alt="Faceboobk"></a></li>
+						<li class="vk" title="Вконтакте"><a href="https://vk.com/adidas" target="_blank"><img src="images/vk.png" alt="VK"></a></li>
+						<li class = "twitter" title="Twitter"><a href="https://twitter.com/adidasRU" target="_blank"><img src="images/twitter.png" alt="Twitter"></a></li>
+						<li class = "google" title="Google+"><a href="https://plus.google.com/u/0/+adidasRussia/posts" target="_blank"><img src="images/google.png" alt="Google"></a></li>
+						<li class = "youtube" title="YouTube"><a href="https://www.youtube.com/user/adidasrussia/feed" target="_blank"><img src="images/youtube.png" alt="YouTube"></a></li>
+					</ul>
+				</div>
+				<div class="sneaker_big col-md-4 col-md-offset-7">
+					<div class="order">
+						<form>
+							<div class="male"><input type="radio" name="gender" value="man"></div>
+							<div class="female"><input type="radio" name="gender" value="woman"></div>
+							<p class="text_gender">пол</p>
+							<i class="fa fa-chevron-left"></i>
+							<i class="fa fa-chevron-right"></i>
+							<input class="foot_number" type="number" name="foot_size" value="40" min="35" max="48" required />
+							<p class="text_size">размер</p>
+							<div class="search"><i class="fa fa-search-plus"></i></div>
+							<div id="sneaker"></div>
+							<div class="change" id="black"></div>
+							<div class="change" id="orange"></div>
+							<div class="change" id="green"></div>
+							<div class="change" id="grey"></div>
+							<span class="add_number">+380</span>
+							<input class="phone_number" type="text" name="phone" max=min="9" autocomlete="off" pattern="[0-9]{9,9}" placeholder=" ... Введите Ваш номер" required />
+							<button class="button" type="submit">Заказать</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container videoblock">
+		<div class="video"><iframe width="540" height="305" src="https://www.youtube.com/embed/oqpTJP36okk" frameborder="0" allowfullscreen></iframe></div>
+		<h2>Ultra Boost – <br>больше чем кроссовки</h2>
+		<p>Наденьте беговые кроссовки Ultra Boost и узнайте, что такое настоящая скорость и настоящий комфорт. «Дышащий» верх Primeknit — гибкий и мягкий, но с достаточной поддержкой стопы. Конструкция подошвы с технологией boost™, запасает и отдает энергию с каждым шагом, а прорезиненный слой STRETCHWEB оптимизирует возврат энергии.</p>
+	</div>
+	<div class="container">
+		<div class="carousel">
+			<div class="item">
+				<img src="images/advantage1.jpg" alt="alt">
+				<div class="description">
+					<h2>Пена Boost и возврат энергии</h2>
+					<p>На 20% больше амортизации BOOST для идеальной пробежки при любых условиях.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="description">
+					<img src="images/advantage2.jpg" alt="alt">
+					<h2>Ультралегкая форма и комфорт</h2>
+					<p>Ультралегкая подкладка адаптируется к форме стопы.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="description">
+					<img src="images/advantage3.jpg" alt="alt">
+					<h2>Поддержка пятки</h2>
+					<p>Обновленная конструкция каркаса пятки позволяет стопе двигаться естественно.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="description">
+					<img src="images/advantage4.jpg" alt="alt">
+					<h2>Адаптивный комфорт primeknit</h2>
+					<p>Материал Primeknit мягко облегает стопу, поддерживая ее.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="description">
+					<img src="images/advantage5.jpg" alt="alt">
+					<h2>Гибкая подошва и контроль</h2>
+					<p>Эластичная подошва Stretch Web позволяет контролировать энергию каждого шага.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="description">
+					<img src="images/advantage6.jpg" alt="alt">
+					<h2>Свободное движение с torsion<sup>®</sup></h2>
+					<p>Система TORSION<sup>®</sup> фиксирует среднюю часть стопы, не сдерживая носок и пятку.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container footer">
+		<div class="col-md-5">
+			<ul class="contacts">
+				<li><span class="our_contacts">Наши контакты:</li>
+				<li>г. Киев, просп. Московський, 16-Б (ТЦ Макрос)</li>
+				<li>тел. +380444264912</li>
+				<li>e-mail: <span class="blue">ua_kiev_makros.ag-fo@adidas-group.com</span></li>
+				<li>Официальный сайт: <span class="blue">adidas.ru</span></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<img src="images/bottom_logo.png" alt="alt">
+			<p>© 1948–2015 <span class="blue">adidas.com</span></p>
+		</div>
+		<div class="col-md-5">
+		</div>
+	</div>
+
+	
+
+	
+
+	
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

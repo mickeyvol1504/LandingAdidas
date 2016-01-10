@@ -1,0 +1,408 @@
+*::-webkit-input-placeholder {
+	color: #B3B3B3;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #B3B3B3;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #B3B3B3;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #B3B3B3;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background: #fff;
+}
+header {
+	background:  url(../images/top_bg.jpg) center top no-repeat;
+	min-height: 670px;
+	position: relative;
+}
+.top_menu {
+	height: 50px;
+	top: 0;
+}
+.logo {
+	top: 10px;
+	padding-left: 0;
+}
+.main_menu {
+	padding: 0;
+	margin: -25px 0;
+}
+.main_menu ul {
+	/*margin: 10px 0;
+	padding: 0;*/
+	list-style-type: none;
+}
+.main_menu ul li {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	color: #b8b8b8;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.main_menu ul li:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#modalDelivery {
+	width: 500px;
+	height: 450px;
+	background-color: #fff;
+	color: #000;
+	font-size: 14px;
+	position: absolute;
+	z-index: 10;
+	padding: 20px;
+	display: none;
+}
+#modalDelivery h2 {
+	text-transform: uppercase; 
+}
+#modalDelivery hr {
+	border: none;
+	color: #000;
+	background-color: #000;
+	height: 2px;
+}
+.yellow {
+	color: #FFFF00;
+}
+.bold {
+	font-weight: bold;
+}
+.sign {
+	color: #fff;
+	padding: 0;
+}
+.best {
+	margin: -30px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.name {
+	letter-spacing: 10px;
+	margin: 0;
+	font-size: 90px;
+}
+.price {
+	margin: -20px 0;
+	color: #ff8a00;
+	font-size: 16px;
+	font-style: italic;
+}
+.number {
+	font-size: 40px;
+}
+.uah {
+	font-size: 20px;
+}
+.old_price {
+	margin: 15px 0 0 25px;
+	text-decoration: line-through;
+	color: #e8e8e8;
+	font-size: 20px;
+	font-style: italic;
+}
+.benefit {
+	margin: 90px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #00ffff;
+}
+.benefit li {
+	margin-bottom: 10px;
+}
+.buttons {
+	margin: -100px 0 0 -20px;
+	list-style-type: none;
+}
+.buttons li {
+	margin-bottom: 10px; 
+}
+.buttons li img {
+	width: 42px;
+	height: 42px;
+	cursor: pointer;
+	opacity: 0.6;
+	border: transparent 1px solid;
+	border-radius: 4px;
+}
+.buttons li img:hover {
+	opacity: 1;
+	border: #FFFF00 1px solid
+}
+#sneakerBig {
+	background-image: url(../images/black_shoes_big.png);
+	width: 500px;
+	height: 333px;
+	display: none;
+	border: #B9B9B9 1px solid;
+	position: absolute;
+	z-index: 10;
+}
+.fa-times {
+	position: absolute;
+	top: 10px;
+	right: 12px;
+	cursor: pointer;
+	font-size: 25px;
+	color: #000;
+}
+.order {
+	margin: -75px 35px 0 0;
+	float: right;
+	height: 230px;
+	width: 300px;
+	background-color: #fff;
+	border-radius: 10px;
+	/*position: relative;*/
+	color: #000;
+}
+.order form {
+	position: relative;
+}
+.order p {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #B3B3B3;
+}
+.male {
+	background: url(../images/man.png);
+	display: block;
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+.male input {
+	margin-top: 5px;
+	margin-left: 3px;
+}
+.female {
+	background: url(../images/woman.png);
+	display: block;
+	width: 18px;
+	height: 27px;
+	position: absolute;
+	top: 18px;
+	left: 65px;
+}
+.female input {
+	margin-top: 5px;
+	margin-left: 3px;
+}
+.text_gender {
+	position: absolute;
+	top: 28px;
+	left: 36px;
+	z-index: 10;
+}
+.fa-chevron-left {
+	position: absolute;
+	top: 70px;
+	left: 14px;
+	font-size: 19px;
+	cursor: pointer;
+	z-index: 10;
+}
+.fa-chevron-right {
+	position: absolute;
+	top: 70px;
+	left: 74px;
+	font-size: 19px;
+	cursor: pointer;
+	z-index: 10;
+}
+.foot_number {
+	position: absolute;
+	top: 65px;
+	left: 31px;
+	width: 40px;
+	padding-left: 9px;
+	 -moz-appearance: textfield;
+	 z-index: 10;
+}
+.foot_number::-webkit-inner-spin-button { 
+ 	display: none;
+}
+.text_size {
+	position: absolute;
+	top: 85px;
+	left: 25px;
+}
+.search {
+	position: absolute;
+	top: 17px;
+	left: 106px;
+	z-index: 10;
+}
+.search i {
+	cursor: pointer;
+	color: #B9B9B9;
+}
+#sneaker {
+	width: 149px;
+	height: 100px;
+	background-image: url(../images/black_shoes.png);
+	border: #B9B9B9 1px solid;
+	position: absolute;
+	top: 15px;
+	right: 51px;
+}
+.change {
+	width: 20px;
+	height: 20px;
+	border: transparent 2px solid;
+	position: absolute;
+	cursor: pointer;
+}
+.change:hover {
+	border: #00FFFF 2px solid
+}
+#black {
+	background-color: black;
+	top: 15px;
+	left: 255px;
+}
+#orange {
+	background-color: #FF7C4F;
+	top: 42px;
+	left: 255px;
+}
+#green {
+	background-color: #DEE44D;
+	top: 69px;
+	left: 255px;
+}
+#grey {
+	background-color: #7D7879;
+	top: 95px;
+	left: 255px;
+}
+.add_number {
+	border: rgba(185, 185, 185, 1) 1px solid;
+	border-radius: 4px;
+	display: block;
+	position: absolute;
+	height: 35px;
+	width: 75px;
+	top: 125px;
+	left: 15px;
+	font-size: 24px;
+	text-align: center;
+}
+.phone_number {
+	position: absolute;
+	width: 185px;
+	height: 35px;
+	right: 15px;
+	top: 125px;
+	border: rgba(185, 185, 185, 1) 1px solid;
+	border-radius: 4px;
+}
+.button {
+	position: absolute;
+	display: block;
+	background-color: #000;
+	width: 270px;
+	height: 50px;
+	font-size: 36px;
+	color: #ff8a00;
+	border-radius: 5px;
+	bottom: 5px;
+	top: 170px;
+	left: 15px;
+	text-transform: uppercase;
+}
+.videoblock {
+	margin-top: 60px;
+	padding: 0;
+}
+.videoblock p, .videoblock h2 {
+	font-family: "RobotoLight";
+}
+.video {
+	float: right;
+}
+.carousel {
+	margin-top: 60px;
+	margin-bottom: 50px;
+	padding: 0;
+	/*position: relative;*/
+}
+.carousel img {
+	height: 220px;
+	width: 540px;
+}
+.carousel h2 {
+	text-transform: uppercase;
+}
+.carousel .item {
+	position: center;
+}
+.carousel .item img {
+	float: left;
+}
+.description {
+	text-align: center;
+	padding-right: 10px;
+}
+.footer {
+	height: 165px;
+	background-color: #000;
+	position: relative;
+	padding: 0;
+}
+.footer img {
+	position: absolute;
+	padding-left: 10px;
+	top: 20px;
+}
+.footer p {
+	color: #fff;
+	display: inline;
+	font-size: 10px;
+	position: absolute;
+	top: 135px;
+	padding-left: 24px;
+
+}
+.blue {
+	color: #00C1F5;
+}
+
+.contacts {
+	font-size: 12px;
+	color: #fff;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 25px;
+}
+.contacts li {
+	margin-bottom: 5px;
+}
+.our_contacts {
+	font-size: 15px;
+	text-decoration: underline;
+}
+
